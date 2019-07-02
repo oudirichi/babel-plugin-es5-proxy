@@ -32,6 +32,7 @@ function computePresets({ useBuiltIns, targets, modules }) {
   }
 
   const presentEnvConf = {
+    corejs: 3,
     useBuiltIns: useBuiltIns || false,
     targets,
     modules: modules || false,
